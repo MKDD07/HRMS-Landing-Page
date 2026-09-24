@@ -1,0 +1,304 @@
+{
+  "system": {
+    "name": "Adomantra HRMS",
+    "tagline": "The Intelligent Workforce Operating System",
+    "headline": "Modernize Attendance, Payroll & Workforce Operations with Next-Gen HRMS.",
+    "lede": "A unified cloud HRMS designed for high-growth enterprises. Seamless Geo-Fenced Mobile Punch In/Out, 1-Click Automated Payroll, Multi-Tier Leave Workflows, and Deep Workforce Analytics.",
+    "ctaText": "Book an Enterprise Demo",
+    "contactPhone": "+91 9650706427",
+    "contactEmail": "hrms@adomantra.com"
+  },
+  "metrics": [
+    {
+      "value": "99.8",
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 1,
+      "label": "Payroll & Tax Accuracy",
+      "description": "Zero manual calculation errors across automated PF, ESI, TDS & bonuses"
+    },
+    {
+      "value": "50",
+      "prefix": "",
+      "suffix": "k+",
+      "decimals": 0,
+      "label": "Daily Geo-Punches",
+      "description": "Accurate GPS & geo-fenced mobile punches verified within 30-meter perimeter"
+    },
+    {
+      "value": "75",
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 0,
+      "label": "Approval Time Cut",
+      "description": "Manager self-service and automated 1-click approvals for leaves & regularizations"
+    },
+    {
+      "value": "100",
+      "prefix": "",
+      "suffix": "%",
+      "decimals": 0,
+      "label": "Statutory Compliance",
+      "description": "Full alignment with Indian labor codes, Form 16, PF ECR, and state tax rules"
+    }
+  ],
+  "modules": [
+    {
+      "id": "dashboard",
+      "num": "01",
+      "title": "Executive & Employee Dashboard",
+      "badge": "Core Control Center",
+      "summary": "Unified command center for HR leaders and intuitive self-service portal for employees.",
+      "description": "Gives executive leadership a bird's-eye view of headcount, live clock-in percentages, shift coverage, and cost trends. Employees get instant access to their punch-in widget, pending approvals, leave balances, and company bulletins.",
+      "features": [
+        "Live headcount & real-time presence feed",
+        "1-Click mobile punch status indicator",
+        "Upcoming team holidays, shifts & birthdays",
+        "Self-service quick links for salary slips & requests"
+      ],
+      "statVal": "100%",
+      "statLbl": "Real-time visibility",
+      "pexelsQuery": "modern office corporate dashboard analytics computer screen human resources",
+      "icon": "fa-gauge-high"
+    },
+    {
+      "id": "employee-management",
+      "num": "02",
+      "title": "Employee Lifecycle & Directory",
+      "badge": "Workforce Master",
+      "summary": "Centralized database from offer letter to onboarding, appraisal, and graceful offboarding.",
+      "description": "Eliminate fragmented spreadsheets. Store digital employee profiles, confidential KYC docs, emergency contacts, compensation structures, asset assignments, and reporting trees in one military-grade encrypted repository.",
+      "features": [
+        "Paperless digital onboarding & e-sign docs",
+        "Searchable company directory with reporting lines",
+        "Asset tracking (laptops, SIMs, access cards)",
+        "Automated probation review & exit clearance workflows"
+      ],
+      "statVal": "3x Faster",
+      "statLbl": "New hire onboarding",
+      "pexelsQuery": "corporate employee badge office professional onboarding human resources",
+      "icon": "fa-users-gear"
+    },
+    {
+      "id": "attendance-management",
+      "num": "03",
+      "title": "Attendance & Geo-Location Punch",
+      "badge": "Smart Geo-Fencing",
+      "summary": "Precision mobile clock-in/out powered by GPS geo-fencing, facial selfie verification, and biometric sync.",
+      "description": "Ensure zero buddy punching and 100% attendance veracity for on-site, remote, and field employees. Set customizable geographic radiuses around corporate offices, client locations, and manufacturing plants with live GPS validation.",
+      "features": [
+        "Geo-fenced perimeter validation (10m to 500m precision)",
+        "Biometric hardware & cloud API synchronization",
+        "Shift roster management with split/night shift rules",
+        "Automated late-in, early-out, and overtime tracking"
+      ],
+      "statVal": "0%",
+      "statLbl": "Buddy punching incidence",
+      "pexelsQuery": "business person using smartphone geo location modern office building check in",
+      "icon": "fa-location-dot"
+    },
+    {
+      "id": "leave-management",
+      "num": "04",
+      "title": "Leave Management & Approvals",
+      "badge": "Workflow Automation",
+      "summary": "Multi-tier approval workflows, dynamic leave ledgers, and intelligent policy governance.",
+      "description": "Configure bespoke leave policies (Casual, Sick, Privilege, Maternity, Paternity, Bereavement). Automatically calculate pro-rated accruals, carry-forwards, encashment rules, and smart sandwich weekend checks with 1-click manager approvals.",
+      "features": [
+        "Configurable multi-level approval hierarchies",
+        "Real-time team leave clash detection",
+        "Automated pro-rated accrual & year-end encashment",
+        "Instant Slack/WhatsApp/Email approval notifications"
+      ],
+      "statVal": "24 Sec",
+      "statLbl": "Avg. approval turn-around",
+      "pexelsQuery": "happy corporate professional planning vacation laptop calendar office",
+      "icon": "fa-calendar-check"
+    },
+    {
+      "id": "regularization-management",
+      "num": "05",
+      "title": "Attendance Regularization",
+      "badge": "Dispute Resolution",
+      "summary": "Frictionless adjustment requests for missed punches, outdoor duty (OD), and shift corrections.",
+      "description": "Never penalize an employee for hardware glitches or off-site client meetings. Employees can request punch regularizations with reason codes and location proofs, routed straight to their reporting manager with full audit trail history.",
+      "features": [
+        "Client site on-duty (OD) geo-tagged requests",
+        "Missed punch regularization with mandatory proof",
+        "Monthly quota limits to prevent attendance abuse",
+        "Audit-ready approval logs for HR compliance"
+      ],
+      "statVal": "-85%",
+      "statLbl": "HR attendance disputes",
+      "pexelsQuery": "business executives reviewing reports and approval on tablet office",
+      "icon": "fa-clipboard-check"
+    },
+    {
+      "id": "team-mates",
+      "num": "06",
+      "title": "Team Mates & Org Hierarchy",
+      "badge": "Collaboration Hub",
+      "summary": "Interactive organizational chart, department mapping, and instant team availability index.",
+      "description": "Foster cross-functional collaboration with a dynamic org tree. View who is in-office, working remotely, on leave, or in meetings in real time. Search teammates by skillset, project assignment, or direct reporting manager.",
+      "features": [
+        "Dynamic interactive SVG organization chart",
+        "Live presence status (In-Office, Remote, On Leave)",
+        "Direct 1-tap call, email, or Slack trigger",
+        "Departmental bandwidth and project allocation view"
+      ],
+      "statVal": "100%",
+      "statLbl": "Org clarity across teams",
+      "pexelsQuery": "diverse business team collaborating around conference table smiling",
+      "icon": "fa-network-wired"
+    },
+    {
+      "id": "calendar",
+      "num": "07",
+      "title": "Shift & Company Calendar",
+      "badge": "Schedule Synchronizer",
+      "summary": "Synchronized holiday calendars, shift rotations, team leave schedules, and sprint milestones.",
+      "description": "Multi-location holiday calendar support for distributed global and pan-India branches. Managers visualize entire team availability side-by-side to avoid coverage shortages before approving time-off requests.",
+      "features": [
+        "Multi-branch regional holiday list allocation",
+        "Rotational shift rosters (24/7 round-the-clock support)",
+        "Calendar sync with Google Calendar, Outlook & Apple iCal",
+        "Work anniversary & birthday celebration reminders"
+      ],
+      "statVal": "Zero",
+      "statLbl": "Understaffed shift gaps",
+      "pexelsQuery": "modern digital calendar schedule on tablet executive planning office",
+      "icon": "fa-calendar-days"
+    },
+    {
+      "id": "payroll-salary",
+      "num": "08",
+      "title": "Salary Slip & Automated Payroll",
+      "badge": "100% Tax Compliant",
+      "summary": "1-Click automated salary processing, statutory deductions, digital encrypted salary slip generation.",
+      "description": "Seamlessly link attendance and approved leaves to payroll calculation. Compute Basic, HRA, Special Allowances, PF, ESI, Professional Tax, TDS, and overtime incentives with zero manual error. Export bank NEFT payout files and email password-protected pay slips.",
+      "features": [
+        "1-Click payroll run with automatic LOP deductions",
+        "Statutory compliance: PF ECR, ESIC, PT, TDS Form 16",
+        "Encrypted PDF salary slip download via mobile app & portal",
+        "Direct corporate bank disbursement file generation"
+      ],
+      "statVal": "10 Min",
+      "statLbl": "End-to-end payroll cycle",
+      "pexelsQuery": "financial analyst accounting payroll spreadsheet laptop calculation",
+      "icon": "fa-file-invoice-dollar"
+    },
+    {
+      "id": "analytics-reports",
+      "num": "09",
+      "title": "HR Analytics & Workforce Reports",
+      "badge": "Actionable Intelligence",
+      "summary": "Strategic workforce insights, attrition trends, overtime costs, and statutory compliance dashboards.",
+      "description": "Empower CHROs and business heads with predictive workforce intelligence. Track monthly attrition rates, department-wise payroll spending, absenteeism heatmaps, and gender diversity benchmarks with 1-click export to Excel and PDF.",
+      "features": [
+        "Department-level salary and overtime expenditure analytics",
+        "Early warning attrition risk indicators",
+        "Attendance and punctuality heatmaps by division",
+        "Pre-built compliance reports for internal and labor audits"
+      ],
+      "statVal": "40+ Reports",
+      "statLbl": "Ready-to-export templates",
+      "pexelsQuery": "business data intelligence analytics charts graphs presentation screen",
+      "icon": "fa-chart-pie"
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "retail-chain",
+      "company": "Metropolis Retail Group",
+      "badge": "Large Retail & Store Operations",
+      "title": "Scaling Geo-Fenced Mobile Attendance Across 180 Stores & 4,800 Store Associates",
+      "statVal1": "0%",
+      "statLbl1": "Buddy Punching Loophole",
+      "statVal2": "4,800+",
+      "statLbl2": "Associates Clocking In Daily",
+      "overview": "A fast-fashion retail chain with 180 stores across 45 cities struggled with manual sign-in registers, ghost shifts, and payroll leakage due to buddy punching.",
+      "challenge": "Biometric machines frequently broke down in remote tier-2/3 mall locations, delaying monthly payroll reconciliation by over 12 days every single month.",
+      "strategy": "Deployed Adomantra HRMS mobile geo-fenced attendance. Store managers set a strict 30-meter radius around each store. Associates punch in on their mobile phones with GPS coordinate check and live selfie verification.",
+      "impact": "Eliminated ghost attendances completely, reduced monthly payroll processing time from 12 days to just 3 hours, and saved ₹42 Lakhs annually in recovered payroll leakages.",
+      "pexelsQuery": "retail store team professional employees customer service managers"
+    },
+    {
+      "id": "tech-unicorn",
+      "company": "Finovate Technologies",
+      "badge": "Fintech & Rapid Scale-Up",
+      "title": "Automating Multi-Tier Leaves & 1-Click Payroll for 1,400 Remote & Hybrid Engineers",
+      "statVal1": "100%",
+      "statLbl1": "On-Time Salary Disbursement",
+      "statVal2": "94%",
+      "statLbl2": "Self-Service Adoption Rate",
+      "overview": "Finovate scaled headcount from 250 to 1,400 across 5 development centers and remote hubs. Disconnected HR spreadsheets caused delayed salary slips and tax deduction complaints.",
+      "challenge": "Software engineers demanded instantaneous mobile access to salary slips, tax declaration submissions, and quick leave approvals without HR ticketing delays.",
+      "strategy": "Integrated Adomantra HRMS employee self-service portal, automated tax investment proof verification, and hooked attendance straight into automated salary slip generation.",
+      "impact": "HR tickets decreased by 82%, payroll execution was achieved in 1 click by the 1st of every month, and employee satisfaction scores rose to 4.9/5.",
+      "pexelsQuery": "modern tech software company engineers collaborating in open office space"
+    },
+    {
+      "id": "manufacturing-plant",
+      "company": "Apex Precision Engineering",
+      "badge": "Industrial & Heavy Manufacturing",
+      "title": "Optimizing 3-Shift Attendance & Overtime Regularization for 3,200 Plant Workers",
+      "statVal1": "+28%",
+      "statLbl1": "Shift Production Adherence",
+      "statVal2": "100%",
+      "statLbl2": "Labor Law Compliance",
+      "overview": "A high-precision automotive components manufacturer operates 24/7 plants with complex rotating 3-shift schedules, overtime differentials, and strict statutory safety standards.",
+      "challenge": "Disputed overtime calculations and delayed supervisor attendance sign-offs caused plant friction, audit penalties, and labor union grievances.",
+      "strategy": "Implemented Adomantra HRMS with biometric-to-cloud sync, automated overtime regularization workflows, and shift-swap approval modules directly accessible on plant floor kiosks.",
+      "impact": "Eliminated overtime disputes, achieved 100% statutory labor code compliance across multiple state jurisdictions, and increased shift production adherence by 28%.",
+      "pexelsQuery": "advanced manufacturing industrial plant engineers clean factory robotics"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How does the Geo-Location Punch In / Punch Out feature work?",
+      "a": "Adomantra HRMS uses high-precision device GPS and Wi-Fi perimeter triangulation. Company administrators define authorized geographical boundaries (e.g. 50-meter radius around an office, warehouse, or client site). When employees tap 'Punch In' on their mobile app, the system instantly verifies their physical presence inside the perimeter. For field sales, dynamic client check-ins with geolocation tagging are also supported."
+    },
+    {
+      "q": "Can Adomantra HRMS integrate with our existing Biometric Fingerprint or Face Recognition hardware?",
+      "a": "Yes. Our cloud attendance engine includes pre-built APIs and real-time middleware for leading biometric hardware (e.g., eSSL, ZKTeco, Matrix, Realtime). Punches from biometric devices sync instantly alongside mobile app punches in a single consolidated attendance ledger."
+    },
+    {
+      "q": "How does the automated Payroll and Salary Slip engine handle statutory deductions?",
+      "a": "The payroll module automatically computes Basic, HRA, Conveyance, Special Allowances, Employee & Employer PF (Provident Fund), ESI, Professional Tax (PT state-specific slabs), and income tax TDS deductions based on the employee's tax regime (Old vs New). Employees receive encrypted, password-protected digital salary slips that can be viewed or downloaded in PDF format instantly."
+    },
+    {
+      "q": "What is the Attendance Regularization workflow?",
+      "a": "If an employee forgets to clock out, experiences hardware connectivity issues, or travels on official outdoor duty (OD), they can submit a regularization request through their self-service dashboard with a justification and optional attachments. Their reporting manager receives an instant notification to approve or reject with 1 click, automatically correcting the payroll attendance records."
+    },
+    {
+      "q": "How long does it take to deploy and migrate from our existing Excel sheets or legacy software?",
+      "a": "Most enterprises with 50 to 5,000 employees go live within 3 to 7 business days. Our dedicated customer success team provides 1-click bulk Excel/CSV import templates for employee master data, past leave balances, salary structures, and department trees."
+    },
+    {
+      "q": "Is our company employee and salary data secure and compliant?",
+      "a": "Absolutely. Adomantra HRMS features enterprise-grade 256-bit AES encryption at rest and TLS 1.3 in transit, role-based access control (RBAC), multi-factor authentication (MFA), and audit log tracking. We comply with Indian Data Protection standards and global security best practices."
+    }
+  ],
+  "samplePayroll": {
+    "empName": "Aarav Sharma",
+    "empId": "ADM-2041",
+    "designation": "Senior Product Strategist",
+    "department": "Engineering & Technology",
+    "payPeriod": "September 2026",
+    "pan": "ABCPS8492K",
+    "pfNo": "DL/10948/48291",
+    "earnings": [
+      { "label": "Basic Salary", "amount": 65000 },
+      { "label": "House Rent Allowance (HRA)", "amount": 26000 },
+      { "label": "Special Allowance", "amount": 18500 },
+      { "label": "Conveyance Allowance", "amount": 3500 },
+      { "label": "Performance Incentive", "amount": 7000 }
+    ],
+    "deductions": [
+      { "label": "Provident Fund (Employee PF)", "amount": 1800 },
+      { "label": "Professional Tax (PT)", "amount": 200 },
+      { "label": "Tax Deducted at Source (TDS)", "amount": 6500 },
+      { "label": "Health Insurance Premium", "amount": 1200 }
+    ]
+  }
+}

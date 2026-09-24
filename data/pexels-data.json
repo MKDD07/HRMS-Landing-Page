@@ -1,0 +1,44 @@
+{
+  "hrms": {
+    "dashboard": {
+      "query": "modern corporate office dashboard computer screen human resources analytics",
+      "src": ""
+    },
+    "employee-management": {
+      "query": "corporate employee badge office professional onboarding human resources team",
+      "src": ""
+    },
+    "attendance-management": {
+      "query": "business professional smartphone geo location check in modern building entrance",
+      "src": ""
+    },
+    "leave-management": {
+      "query": "corporate professional vacation calendar planning laptop office smiling",
+      "src": ""
+    },
+    "regularization-management": {
+      "query": "business executives reviewing reports and approval tablet office discussion",
+      "src": ""
+    },
+    "team-mates": {
+      "query": "diverse business corporate team collaborating around conference table happy",
+      "src": ""
+    },
+    "calendar": {
+      "query": "modern digital calendar schedule on tablet executive planning office",
+      "src": ""
+    },
+    "payroll-salary": {
+      "query": "financial accounting payroll spreadsheet calculation corporate finance",
+      "src": ""
+    },
+    "analytics-reports": {
+      "query": "business data intelligence analytics charts graphs presentation screen",
+      "src": ""
+    },
+    "mobile-app": {
+      "query": "person holding modern smartphone app corporate office background",
+      "src": ""
+    }
+  }
+}
