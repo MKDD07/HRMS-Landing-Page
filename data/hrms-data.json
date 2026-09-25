@@ -1,6 +1,6 @@
 {
   "system": {
-    "name": "Adomantra HRMS",
+    "name": "AdoTeam",
     "tagline": "The Intelligent Workforce Operating System",
     "headline": "Modernize Attendance, Payroll & Workforce Operations with Next-Gen HRMS.",
     "lede": "A unified cloud HRMS designed for high-growth enterprises. Seamless Geo-Fenced Mobile Punch In/Out, 1-Click Automated Payroll, Multi-Tier Leave Workflows, and Deep Workforce Analytics.",
@@ -46,163 +46,163 @@
     {
       "id": "dashboard",
       "num": "01",
-      "title": "Executive & Employee Dashboard",
-      "badge": "Core Control Center",
-      "summary": "Unified command center for HR leaders and intuitive self-service portal for employees.",
-      "description": "Gives executive leadership a bird's-eye view of headcount, live clock-in percentages, shift coverage, and cost trends. Employees get instant access to their punch-in widget, pending approvals, leave balances, and company bulletins.",
+      "title": "Dashboard",
+      "badge": "Central Command System",
+      "summary": "Real-time visibility across attendance, pending approvals, company announcements, and self-service actions.",
+      "description": "Transforms high-level workforce governance into a clean, actionable command center. Executive leadership monitors real-time headcounts, shift coverage heatmaps, payroll cut-off timelines, and department attendance variance from a single screen. Employees enjoy an instantaneous self-service terminal to clock in, verify punch logs, apply for time-off, and download tax slips.",
       "features": [
-        "Live headcount & real-time presence feed",
-        "1-Click mobile punch status indicator",
-        "Upcoming team holidays, shifts & birthdays",
-        "Self-service quick links for salary slips & requests"
+        "Live presence radar with department-wise clock-in status",
+        "Instant employee quick-actions: 1-Tap Punch, Leave Apply, Pay Slip",
+        "Automated HR bulletin board & company-wide milestone alerts",
+        "Role-based drilldown access for CXOs, HR Managers & Staff"
       ],
       "statVal": "100%",
-      "statLbl": "Real-time visibility",
-      "pexelsQuery": "modern office corporate dashboard analytics computer screen human resources",
+      "statLbl": "Real-Time Roster Visibility",
+      "pexelsQuery": "Dashboard HRMS analytics computer screen modern office management",
       "icon": "fa-gauge-high"
     },
     {
       "id": "employee-management",
       "num": "02",
-      "title": "Employee Lifecycle & Directory",
-      "badge": "Workforce Master",
-      "summary": "Centralized database from offer letter to onboarding, appraisal, and graceful offboarding.",
-      "description": "Eliminate fragmented spreadsheets. Store digital employee profiles, confidential KYC docs, emergency contacts, compensation structures, asset assignments, and reporting trees in one military-grade encrypted repository.",
+      "title": "Employee Management",
+      "badge": "Paperless Core HR",
+      "summary": "Single source of truth from digital offer letters to paperless onboarding, KYC verification, and exit audits.",
+      "description": "Consolidate fragmented paperwork and siloed spreadsheets into a high-security encrypted workforce repository. Manage custom designation hierarchies, digital document vaults (Aadhaar, PAN, Passport, Education), compensation breakdown matrices, asset allocations (laptops, SIMs, access tokens), and automated probation milestones.",
       "features": [
-        "Paperless digital onboarding & e-sign docs",
-        "Searchable company directory with reporting lines",
-        "Asset tracking (laptops, SIMs, access cards)",
-        "Automated probation review & exit clearance workflows"
+        "100% paperless digital onboarding with e-sign verification",
+        "Encrypted KYC & confidential document repository",
+        "Hardware & software asset allocation audit trails",
+        "Automated probation tracking & 3-step exit clearance"
       ],
       "statVal": "3x Faster",
-      "statLbl": "New hire onboarding",
-      "pexelsQuery": "corporate employee badge office professional onboarding human resources",
+      "statLbl": "Employee Onboarding Speed",
+      "pexelsQuery": "Employee Management HR onboarding corporate professional staff",
       "icon": "fa-users-gear"
     },
     {
       "id": "attendance-management",
       "num": "03",
-      "title": "Attendance & Geo-Location Punch",
-      "badge": "Smart Geo-Fencing",
-      "summary": "Precision mobile clock-in/out powered by GPS geo-fencing, facial selfie verification, and biometric sync.",
-      "description": "Ensure zero buddy punching and 100% attendance veracity for on-site, remote, and field employees. Set customizable geographic radiuses around corporate offices, client locations, and manufacturing plants with live GPS validation.",
+      "title": "Attendance Management (Punch In / Punch Out via Geo-Location)",
+      "badge": "GPS Perimeter & Biometric",
+      "summary": "Hyper-accurate clock-ins powered by 10m–500m GPS geo-fencing, facial selfie verification, and hardware sync.",
+      "description": "Completely eliminates buddy-punching and hardware queue bottlenecks across on-site offices, remote workers, and multi-location field forces. Employees punch directly on mobile within approved geographic perimeters with biometric liveness validation, while on-premise biometric fingerprint/face scanners sync seamlessly in real time.",
       "features": [
-        "Geo-fenced perimeter validation (10m to 500m precision)",
-        "Biometric hardware & cloud API synchronization",
-        "Shift roster management with split/night shift rules",
-        "Automated late-in, early-out, and overtime tracking"
+        "Customizable GPS geo-fenced perimeters (10m to 500m radius)",
+        "Facial recognition & anti-spoofing selfie validation",
+        "Cloud API sync with existing biometric attendance hardware",
+        "Automated late-in, early-out, half-day & overtime tracking"
       ],
       "statVal": "0%",
-      "statLbl": "Buddy punching incidence",
-      "pexelsQuery": "business person using smartphone geo location modern office building check in",
+      "statLbl": "Proxy / Buddy Punching",
+      "pexelsQuery": "Attendance Management Punch In Punch Out via Geo Location smartphone office clock in",
       "icon": "fa-location-dot"
     },
     {
       "id": "leave-management",
       "num": "04",
-      "title": "Leave Management & Approvals",
-      "badge": "Workflow Automation",
-      "summary": "Multi-tier approval workflows, dynamic leave ledgers, and intelligent policy governance.",
-      "description": "Configure bespoke leave policies (Casual, Sick, Privilege, Maternity, Paternity, Bereavement). Automatically calculate pro-rated accruals, carry-forwards, encashment rules, and smart sandwich weekend checks with 1-click manager approvals.",
+      "title": "Leave Management & Approval",
+      "badge": "Automated Multi-Tier Engine",
+      "summary": "Multi-tier approval hierarchies, dynamic leave accruals, policy compliance, and automated clash prevention.",
+      "description": "Tailor company time-off policies to perfection with customized rules for Earned/Privilege, Casual, Sick, Maternity, Paternity, and Compensatory Offs. The system automatically computes pro-rated monthly accruals, year-end carry forwards, encashment payouts, and sandwich weekend logic while alerting managers to project coverage clashes.",
       "features": [
-        "Configurable multi-level approval hierarchies",
-        "Real-time team leave clash detection",
-        "Automated pro-rated accrual & year-end encashment",
-        "Instant Slack/WhatsApp/Email approval notifications"
+        "Configurable multi-level managerial approval hierarchies",
+        "Automated pro-rated monthly accruals & encashment ledgers",
+        "Smart team leave clash prevention on manager dashboards",
+        "Instant Slack, MS Teams, WhatsApp & Email notifications"
       ],
       "statVal": "24 Sec",
-      "statLbl": "Avg. approval turn-around",
-      "pexelsQuery": "happy corporate professional planning vacation laptop calendar office",
+      "statLbl": "Average Approval Turnaround",
+      "pexelsQuery": "Leave Management & Approval calendar laptop vacation time off office",
       "icon": "fa-calendar-check"
     },
     {
       "id": "regularization-management",
       "num": "05",
-      "title": "Attendance Regularization",
-      "badge": "Dispute Resolution",
-      "summary": "Frictionless adjustment requests for missed punches, outdoor duty (OD), and shift corrections.",
-      "description": "Never penalize an employee for hardware glitches or off-site client meetings. Employees can request punch regularizations with reason codes and location proofs, routed straight to their reporting manager with full audit trail history.",
+      "title": "Regularization Management",
+      "badge": "Transparent Dispute Resolution",
+      "summary": "Frictionless adjustment requests for missed punches, client on-duty visits, and overtime approvals.",
+      "description": "Ensures employees are never penalized for biometric glitch delays, field meetings, or power cuts. Staff submit regularization requests with mandatory reason codes, geo-tagged client location proof, and manager approval workflows with strict monthly quota controls to prevent policy exploitation.",
       "features": [
-        "Client site on-duty (OD) geo-tagged requests",
-        "Missed punch regularization with mandatory proof",
-        "Monthly quota limits to prevent attendance abuse",
-        "Audit-ready approval logs for HR compliance"
+        "Client site On-Duty (OD) travel logging with geo-coordinates",
+        "Missed punch regularizations with audit-verified timestamps",
+        "Monthly regularization quotas to uphold attendance discipline",
+        "Complete compliance trail with timestamps & manager remarks"
       ],
       "statVal": "-85%",
-      "statLbl": "HR attendance disputes",
-      "pexelsQuery": "business executives reviewing reports and approval on tablet office",
+      "statLbl": "Attendance Dispute Tickets",
+      "pexelsQuery": "Regularization Management dispute approval attendance audit office tablet",
       "icon": "fa-clipboard-check"
     },
     {
       "id": "team-mates",
       "num": "06",
-      "title": "Team Mates & Org Hierarchy",
-      "badge": "Collaboration Hub",
-      "summary": "Interactive organizational chart, department mapping, and instant team availability index.",
-      "description": "Foster cross-functional collaboration with a dynamic org tree. View who is in-office, working remotely, on leave, or in meetings in real time. Search teammates by skillset, project assignment, or direct reporting manager.",
+      "title": "Team Mates",
+      "badge": "Real-Time Collaboration",
+      "summary": "Interactive organizational chart, reporting tree structures, live status indicators, and skillset index.",
+      "description": "Break down organizational silos and foster immediate cross-functional alignment. Visualize reporting trees, department heads, project teams, and live employee statuses (In Office, Working Remotely, On Leave, In Meeting). Connect instantly via integrated 1-click Slack, Teams, or direct call triggers.",
       "features": [
-        "Dynamic interactive SVG organization chart",
-        "Live presence status (In-Office, Remote, On Leave)",
-        "Direct 1-tap call, email, or Slack trigger",
-        "Departmental bandwidth and project allocation view"
+        "Dynamic interactive SVG organization reporting tree",
+        "Live presence radar (In Office, Remote, Client Visit, On Leave)",
+        "Searchable employee directory by department, skillset & team",
+        "1-Click direct Slack, Email, and Phone contact launch"
       ],
       "statVal": "100%",
-      "statLbl": "Org clarity across teams",
-      "pexelsQuery": "diverse business team collaborating around conference table smiling",
+      "statLbl": "Organizational Transparency",
+      "pexelsQuery": "Team Mates corporate office diverse team collaboration colleagues meeting",
       "icon": "fa-network-wired"
     },
     {
       "id": "calendar",
       "num": "07",
-      "title": "Shift & Company Calendar",
-      "badge": "Schedule Synchronizer",
-      "summary": "Synchronized holiday calendars, shift rotations, team leave schedules, and sprint milestones.",
-      "description": "Multi-location holiday calendar support for distributed global and pan-India branches. Managers visualize entire team availability side-by-side to avoid coverage shortages before approving time-off requests.",
+      "title": "Calendar",
+      "badge": "24/7 Scheduling Engine",
+      "summary": "Multi-location holiday calendars, rotational 24/7 shift rosters, coverage planning, and milestone alerts.",
+      "description": "Effortlessly manage complex 24/7 multi-shift operations, rotational rosters, split shifts, and customized regional holiday schedules for offices across multiple states and international zones. Sync shift schedules automatically with Google Calendar, Microsoft Outlook, and Apple iCal.",
       "features": [
-        "Multi-branch regional holiday list allocation",
-        "Rotational shift rosters (24/7 round-the-clock support)",
-        "Calendar sync with Google Calendar, Outlook & Apple iCal",
-        "Work anniversary & birthday celebration reminders"
+        "Multi-branch state-wise public and optional holiday schedules",
+        "Rotational 24/7 shift roster management with break differential rules",
+        "Calendar synchronization with Google Calendar & MS Outlook",
+        "Automated work anniversary, birthday & achievement reminders"
       ],
       "statVal": "Zero",
-      "statLbl": "Understaffed shift gaps",
-      "pexelsQuery": "modern digital calendar schedule on tablet executive planning office",
+      "statLbl": "Uncovered Shift Gaps",
+      "pexelsQuery": "Calendar schedule shift planning digital schedule tablet executive office",
       "icon": "fa-calendar-days"
     },
     {
       "id": "payroll-salary",
       "num": "08",
-      "title": "Salary Slip & Automated Payroll",
-      "badge": "100% Tax Compliant",
-      "summary": "1-Click automated salary processing, statutory deductions, digital encrypted salary slip generation.",
-      "description": "Seamlessly link attendance and approved leaves to payroll calculation. Compute Basic, HRA, Special Allowances, PF, ESI, Professional Tax, TDS, and overtime incentives with zero manual error. Export bank NEFT payout files and email password-protected pay slips.",
+      "title": "Salary Slip / Payroll",
+      "badge": "100% Error-Free Tax Engine",
+      "summary": "1-Click automated salary disbursement, statutory deductions (PF, ESIC, PT, TDS), and encrypted pay slips.",
+      "description": "Eliminate month-end payroll nightmares by seamlessly auto-fetching verified attendance, approved leaves, and loss of pay (LOP) deductions directly into payroll. Instantly calculate Basic, HRA, Special Allowances, PF ECR, ESIC, Professional Tax, TDS Form 16, and generate corporate bank payout files in minutes.",
       "features": [
-        "1-Click payroll run with automatic LOP deductions",
-        "Statutory compliance: PF ECR, ESIC, PT, TDS Form 16",
-        "Encrypted PDF salary slip download via mobile app & portal",
-        "Direct corporate bank disbursement file generation"
+        "1-Click automated payroll calculation from live attendance & leaves",
+        "Statutory compliance: PF ECR, ESIC, PT slabs & TDS deductions",
+        "Password-protected encrypted PDF pay slip generation & email dispatch",
+        "Direct corporate bank payout batch file generation (NEFT/RTGS)"
       ],
       "statVal": "10 Min",
-      "statLbl": "End-to-end payroll cycle",
-      "pexelsQuery": "financial analyst accounting payroll spreadsheet laptop calculation",
+      "statLbl": "Full Payroll Run Execution",
+      "pexelsQuery": "Salary Slip Payroll accounting tax financial report spreadsheet laptop",
       "icon": "fa-file-invoice-dollar"
     },
     {
       "id": "analytics-reports",
       "num": "09",
-      "title": "HR Analytics & Workforce Reports",
-      "badge": "Actionable Intelligence",
-      "summary": "Strategic workforce insights, attrition trends, overtime costs, and statutory compliance dashboards.",
-      "description": "Empower CHROs and business heads with predictive workforce intelligence. Track monthly attrition rates, department-wise payroll spending, absenteeism heatmaps, and gender diversity benchmarks with 1-click export to Excel and PDF.",
+      "title": "Analytics & Reports",
+      "badge": "Strategic HR Intelligence",
+      "summary": "Predictive attrition analytics, overtime spend heatmaps, diversity metrics, and 40+ exportable reports.",
+      "description": "Equip executive leadership and CHROs with high-impact workforce intelligence. Track attrition patterns, departmental salary spending, absenteeism trends, gender diversity ratios, and generate statutory audit reports in Excel and PDF format with zero manual assembly.",
       "features": [
-        "Department-level salary and overtime expenditure analytics",
-        "Early warning attrition risk indicators",
-        "Attendance and punctuality heatmaps by division",
-        "Pre-built compliance reports for internal and labor audits"
+        "Department-level payroll, overtime & cost center expenditures",
+        "Early warning attrition risk & absenteeism trend indicators",
+        "Comprehensive workforce diversity & tenure distribution graphs",
+        "40+ audit-ready statutory reports exportable in Excel & PDF"
       ],
       "statVal": "40+ Reports",
-      "statLbl": "Ready-to-export templates",
-      "pexelsQuery": "business data intelligence analytics charts graphs presentation screen",
+      "statLbl": "Audit-Ready Export Templates",
+      "pexelsQuery": "Analytics & Reports business intelligence charts graphs data presentation",
       "icon": "fa-chart-pie"
     }
   ],
@@ -218,7 +218,7 @@
       "statLbl2": "Associates Clocking In Daily",
       "overview": "A fast-fashion retail chain with 180 stores across 45 cities struggled with manual sign-in registers, ghost shifts, and payroll leakage due to buddy punching.",
       "challenge": "Biometric machines frequently broke down in remote tier-2/3 mall locations, delaying monthly payroll reconciliation by over 12 days every single month.",
-      "strategy": "Deployed Adomantra HRMS mobile geo-fenced attendance. Store managers set a strict 30-meter radius around each store. Associates punch in on their mobile phones with GPS coordinate check and live selfie verification.",
+      "strategy": "Deployed AdoTeam mobile geo-fenced attendance. Store managers set a strict 30-meter radius around each store. Associates punch in on their mobile phones with GPS coordinate check and live selfie verification.",
       "impact": "Eliminated ghost attendances completely, reduced monthly payroll processing time from 12 days to just 3 hours, and saved ₹42 Lakhs annually in recovered payroll leakages.",
       "pexelsQuery": "retail store team professional employees customer service managers"
     },
@@ -233,7 +233,7 @@
       "statLbl2": "Self-Service Adoption Rate",
       "overview": "Finovate scaled headcount from 250 to 1,400 across 5 development centers and remote hubs. Disconnected HR spreadsheets caused delayed salary slips and tax deduction complaints.",
       "challenge": "Software engineers demanded instantaneous mobile access to salary slips, tax declaration submissions, and quick leave approvals without HR ticketing delays.",
-      "strategy": "Integrated Adomantra HRMS employee self-service portal, automated tax investment proof verification, and hooked attendance straight into automated salary slip generation.",
+      "strategy": "Integrated AdoTeam employee self-service portal, automated tax investment proof verification, and hooked attendance straight into automated salary slip generation.",
       "impact": "HR tickets decreased by 82%, payroll execution was achieved in 1 click by the 1st of every month, and employee satisfaction scores rose to 4.9/5.",
       "pexelsQuery": "modern tech software company engineers collaborating in open office space"
     },
@@ -248,7 +248,7 @@
       "statLbl2": "Labor Law Compliance",
       "overview": "A high-precision automotive components manufacturer operates 24/7 plants with complex rotating 3-shift schedules, overtime differentials, and strict statutory safety standards.",
       "challenge": "Disputed overtime calculations and delayed supervisor attendance sign-offs caused plant friction, audit penalties, and labor union grievances.",
-      "strategy": "Implemented Adomantra HRMS with biometric-to-cloud sync, automated overtime regularization workflows, and shift-swap approval modules directly accessible on plant floor kiosks.",
+      "strategy": "Implemented AdoTeam with biometric-to-cloud sync, automated overtime regularization workflows, and shift-swap approval modules directly accessible on plant floor kiosks.",
       "impact": "Eliminated overtime disputes, achieved 100% statutory labor code compliance across multiple state jurisdictions, and increased shift production adherence by 28%.",
       "pexelsQuery": "advanced manufacturing industrial plant engineers clean factory robotics"
     }
@@ -256,10 +256,10 @@
   "faq": [
     {
       "q": "How does the Geo-Location Punch In / Punch Out feature work?",
-      "a": "Adomantra HRMS uses high-precision device GPS and Wi-Fi perimeter triangulation. Company administrators define authorized geographical boundaries (e.g. 50-meter radius around an office, warehouse, or client site). When employees tap 'Punch In' on their mobile app, the system instantly verifies their physical presence inside the perimeter. For field sales, dynamic client check-ins with geolocation tagging are also supported."
+      "a": "AdoTeam uses high-precision device GPS and Wi-Fi perimeter triangulation. Company administrators define authorized geographical boundaries (e.g. 50-meter radius around an office, warehouse, or client site). When employees tap 'Punch In' on their mobile app, the system instantly verifies their physical presence inside the perimeter. For field sales, dynamic client check-ins with geolocation tagging are also supported."
     },
     {
-      "q": "Can Adomantra HRMS integrate with our existing Biometric Fingerprint or Face Recognition hardware?",
+      "q": "Can AdoTeam integrate with our existing Biometric Fingerprint or Face Recognition hardware?",
       "a": "Yes. Our cloud attendance engine includes pre-built APIs and real-time middleware for leading biometric hardware (e.g., eSSL, ZKTeco, Matrix, Realtime). Punches from biometric devices sync instantly alongside mobile app punches in a single consolidated attendance ledger."
     },
     {
@@ -276,7 +276,7 @@
     },
     {
       "q": "Is our company employee and salary data secure and compliant?",
-      "a": "Absolutely. Adomantra HRMS features enterprise-grade 256-bit AES encryption at rest and TLS 1.3 in transit, role-based access control (RBAC), multi-factor authentication (MFA), and audit log tracking. We comply with Indian Data Protection standards and global security best practices."
+      "a": "Absolutely. AdoTeam features enterprise-grade 256-bit AES encryption at rest and TLS 1.3 in transit, role-based access control (RBAC), multi-factor authentication (MFA), and audit log tracking. We comply with Indian Data Protection standards and global security best practices."
     }
   ],
   "samplePayroll": {
@@ -300,5 +300,31 @@
       { "label": "Tax Deducted at Source (TDS)", "amount": 6500 },
       { "label": "Health Insurance Premium", "amount": 1200 }
     ]
-  }
+  },
+  "clients": [
+    { "name": "Narayana", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-4.webp" },
+    { "name": "Saroj Hospital", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-5.webp" },
+    { "name": "Kaya Clinic", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-6.webp" },
+    { "name": "MediBuddy", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-7.webp" },
+    { "name": "Microsoft", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-8.webp" },
+    { "name": "Hilton", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-9.webp" },
+    { "name": "Chevrolet", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-10.webp" },
+    { "name": "Garnier", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-11.webp" },
+    { "name": "Ola", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-12.webp" },
+    { "name": "Punjab National Bank", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-13.webp" },
+    { "name": "GroupM", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-14.webp" },
+    { "name": "Isobar", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-16.webp" },
+    { "name": "Madhouse", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-17.webp" },
+    { "name": "Resultrix", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-18.webp" },
+    { "name": "Havas Media", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-19.webp" },
+    { "name": "Philips", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-20.webp" },
+    { "name": "Snickers", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-21.webp" },
+    { "name": "Honda", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-22.webp" },
+    { "name": "Emirates", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-23.webp" },
+    { "name": "Asian Paints", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-24.webp" },
+    { "name": "Client Partner", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-25.webp" },
+    { "name": "Big Trunk", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-26.webp" },
+    { "name": "Inox", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-27.webp" },
+    { "name": "Maxcure Hospital", "image": "https://www.adomantra.com/public/ourcustomer/ourcustomer-28.webp" }
+  ]
 }

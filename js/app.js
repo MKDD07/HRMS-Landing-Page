@@ -32,13 +32,46 @@ document.addEventListener("DOMContentLoaded", () => {
     if (window.gsap) gsap.registerPlugin(ScrollTrigger);
   }
 
-  /* ---------------- HEADER ---------------- */
+  /* ---------------- HEADER (AUTO HIDE ON SCROLL DOWN, REVEAL ON SCROLL UP) ---------------- */
   const header = document.querySelector(".site-header");
+  let lastScrollY = window.scrollY || 0;
+  let ticking = false;
+
   const onScroll = () => {
-    header.classList.toggle("is-scrolled", window.scrollY > 40);
+    const currentScrollY = window.scrollY || 0;
+
+    // Header styling when scrolled
+    if (header) {
+      header.classList.toggle("is-scrolled", currentScrollY > 30);
+
+      // Don't hide if near the top
+      if (currentScrollY <= 80) {
+        header.classList.remove("is-hidden");
+      } else if (currentScrollY > lastScrollY && currentScrollY > 120) {
+        // Scrolling Down -> Hide Header
+        header.classList.add("is-hidden");
+      } else if (currentScrollY < lastScrollY) {
+        // Scrolling Up -> Show Header
+        header.classList.remove("is-hidden");
+      }
+    }
+
+    lastScrollY = Math.max(0, currentScrollY);
+    ticking = false;
   };
+
+  const handleScroll = () => {
+    if (!ticking) {
+      window.requestAnimationFrame(onScroll);
+      ticking = true;
+    }
+  };
+
   onScroll();
-  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("scroll", handleScroll, { passive: true });
+  if (typeof lenis !== "undefined" && lenis.on) {
+    lenis.on("scroll", handleScroll);
+  }
 
   /* ---------------- MOBILE NAV ---------------- */
   const hamburger = document.querySelector(".hamburger");
@@ -101,29 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  /* ---------------- SERVICES SWIPER ---------------- */
-  if (typeof Swiper !== "undefined" && document.querySelector(".services-swiper")) {
-    new Swiper(".services-swiper", {
-      slidesPerView: 1.1,
-      spaceBetween: 24,
-      loop: true,
-      navigation: {
-        nextEl: ".services-swiper-next",
-        prevEl: ".services-swiper-prev",
-      },
-      autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-      },
-      speed: 800,
-      breakpoints: {
-        768: { slidesPerView: 2, spaceBetween: 30 },
-        1024: { slidesPerView: 3, spaceBetween: 36 },
-        1400: { slidesPerView: 4, spaceBetween: 36 }
-      },
-    });
-  }
+  /* ---------------- SERVICES SWIPER (REPLACED BY MODULES GSAP STACK) ---------------- */
 
   /* ---------------- INDUSTRIES SWIPER ---------------- */
   if (typeof Swiper !== "undefined" && document.querySelector(".industries-swiper")) {
@@ -145,6 +156,25 @@ document.addEventListener("DOMContentLoaded", () => {
         768: { slidesPerView: 2, spaceBetween: 30 },
         1024: { slidesPerView: 3, spaceBetween: 36 },
         1400: { slidesPerView: 4, spaceBetween: 36 }
+      },
+    });
+  }
+
+  /* ---------------- TESTIMONIALS SWIPER (Multiplier Style 2 Columns on Desktop) ---------------- */
+  if (typeof Swiper !== "undefined" && document.querySelector(".testimonials-swiper")) {
+    new Swiper(".testimonials-swiper", {
+      slidesPerView: 1.1,
+      spaceBetween: 24,
+      loop: false,
+      navigation: {
+        nextEl: ".tst-next-btn",
+        prevEl: ".tst-prev-btn",
+      },
+      speed: 600,
+      breakpoints: {
+        640: { slidesPerView: 1.4, spaceBetween: 24 },
+        768: { slidesPerView: 1.8, spaceBetween: 24 },
+        1024: { slidesPerView: 2, spaceBetween: 28 }
       },
     });
   }
@@ -582,34 +612,47 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  /* ---------------- HIDE/SHOW MOBILE ENQUIRE BTN BASED ON SCROLL POSITION ---------------- */
-  if (openSheetBtn) {
-    const updateEnquireBtnVisibility = () => {
-      if (window.innerWidth >= 768) return;
+  /* ---------------- BOTTOM CENTER IOS GLASS CTA OVERLAY ---------------- */
+  const bottomGlassBar = document.getElementById("bottomGlassCtaBar");
+  const closeBottomGlassBtn = document.getElementById("closeBottomGlassCta");
+  let isGlassDismissed = false;
 
-      const heroEl = document.querySelector(".hero");
-      const footerEl = document.querySelector(".site-footer");
-      const scrollY = window.scrollY || window.pageYOffset;
-      const heroBottom = heroEl ? heroEl.offsetTop + heroEl.offsetHeight - 120 : 450;
-
-      let nearFooter = false;
-      if (footerEl) {
-        const footerTop = footerEl.getBoundingClientRect().top;
-        if (footerTop < window.innerHeight + 80) {
-          nearFooter = true;
-        }
-      }
-
-      // Hide if near hero/header OR near footer
-      if (scrollY > heroBottom && !nearFooter) {
-        openSheetBtn.classList.add("is-visible");
-      } else {
-        openSheetBtn.classList.remove("is-visible");
-      }
-    };
-
-    window.addEventListener("scroll", updateEnquireBtnVisibility, { passive: true });
-    window.addEventListener("resize", updateEnquireBtnVisibility, { passive: true });
-    updateEnquireBtnVisibility();
+  if (closeBottomGlassBtn && bottomGlassBar) {
+    closeBottomGlassBtn.addEventListener("click", () => {
+      isGlassDismissed = true;
+      bottomGlassBar.classList.remove("is-visible");
+      bottomGlassBar.classList.add("is-dismissed");
+    });
   }
+
+  const updateBottomGlassVisibility = () => {
+    if (!bottomGlassBar || isGlassDismissed) return;
+
+    const heroEl = document.querySelector(".hero");
+    const footerEl = document.querySelector(".site-footer");
+    const scrollY = window.scrollY || window.pageYOffset;
+    const heroBottom = heroEl ? heroEl.offsetTop + heroEl.offsetHeight - 80 : 400;
+
+    let nearFooter = false;
+    if (footerEl) {
+      const footerTop = footerEl.getBoundingClientRect().top;
+      if (footerTop < window.innerHeight + 60) {
+        nearFooter = true;
+      }
+    }
+
+    // Reveal after scrolling past the initial hero banner, and hide when nearing footer
+    if (scrollY > heroBottom && !nearFooter) {
+      bottomGlassBar.classList.add("is-visible");
+    } else {
+      bottomGlassBar.classList.remove("is-visible");
+    }
+  };
+
+  window.addEventListener("scroll", updateBottomGlassVisibility, { passive: true });
+  window.addEventListener("resize", updateBottomGlassVisibility, { passive: true });
+  if (typeof lenis !== "undefined" && lenis.on) {
+    lenis.on("scroll", updateBottomGlassVisibility);
+  }
+  updateBottomGlassVisibility();
 });
