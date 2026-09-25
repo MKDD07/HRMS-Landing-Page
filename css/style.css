@@ -2148,7 +2148,7 @@ html.lenis, html.lenis body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: 1.5px solid #111827;
+  border: 1.5px solid var(--primary-color);
   background: #ffffff;
   color: #111827;
   display: flex;
@@ -2161,7 +2161,7 @@ html.lenis, html.lenis body {
 }
 
 .tst-nav-btn:hover {
-  background: #111827;
+  background: var(--primary-color);
   color: #ffffff;
   transform: scale(1.05);
 }
